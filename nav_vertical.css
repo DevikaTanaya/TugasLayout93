@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: aliceblue;
+    border: 1px solid rgb(22, 129, 129);
+    position: fixed;
+    height: 100%;
+}
+li a{
+    display: block;
+    color: rgb(23, 41, 35);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+li a.active{
+    background-color: cadetblue;
+    color: rgb(31, 34, 34);
+}
+li a:hover:not(.active){
+    background-color: darkcyan;
+    color:rgb(11, 12, 12);
+}

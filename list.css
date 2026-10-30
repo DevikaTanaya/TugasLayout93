@@ -1,0 +1,100 @@
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    background-color: #5b3a70;
+    padding: 20px;
+}
+li{
+    background-color: #f2d8c9;
+    margin: 10px;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.list.tugas.tik {
+    background-color: #eabfb2;
+    padding: 1px 5px;
+}
+
+.list.tugas.tik ol {
+    background-color: #52260a;
+    list-style-type: upper-roman;
+    padding: 10px;
+}
+
+.list.tugas.tik ol li {
+    background-color: #e4d05b;
+    margin: 3px 0;
+}
+
+.list.tugas.tik ol li.stroberi {
+    background-color: #000dc9;
+}
+
+.list.tugas.tik ul {
+    background-color: #f0e57c;
+    padding: 10px;
+}
+
+.list.tugas.tik ul li {
+    background-color: #d6e3fe;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+.list.tugas.tik .awesome ul li {
+    background-color: #ffff00;
+}
+
+.list.tugas.tik .awesome ul {
+    list-style: none;
+}
+
+.list.tugas.tik .awesome ul li {
+    padding-left: 3px;
+}
+
+.list.tugas.tik .awesome ul li svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.header{
+    background-color: #eadcf2;
+    color: #38264a;
+    padding: 20px;
+    text-align: center;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: #38264a;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #f1c27d;
+    color: #38264a;
+}
+
+/* Style footer */
+footer{
+    background-color: #eadcf2;
+    color: #38264a;
+    padding: 10px;
+    text-align: center;
+}
